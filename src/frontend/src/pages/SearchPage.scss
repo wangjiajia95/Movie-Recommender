@@ -1,0 +1,20 @@
+.SearchPage { 
+    .search-page-heading {
+        margin-top: 90px;
+        margin-bottom: 50px;
+        font-size: 1.2rem;
+        color: #d00000;
+        text-align: left;
+    }
+    .movie-detail-card{
+    display: grid;  
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    }
+    .bottom{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: right;
+        
+    }
+}

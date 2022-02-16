@@ -1,0 +1,32 @@
+.MoviePage {
+    .page-heading {
+        margin-top:  100px;
+        margin-bottom: 30px;
+        font-size: 1.3rem;
+        
+        color:#d00000;
+        text-align: left;
+    }
+    
+    .year-card {
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        grid-column-gap: 30px;
+    }
+    .year-selector {
+        justify-self: end;
+        padding: 30px;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .movie-detail-card-detail {
+        display:grid;
+        grid-template-columns: 450px 450px;
+        grid-column-gap: 20px;
+    }
+    .btn{
+        margin-bottom: 10px;
+    }
+
+    
+}

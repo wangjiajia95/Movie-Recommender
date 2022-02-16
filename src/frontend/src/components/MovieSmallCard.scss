@@ -1,0 +1,17 @@
+.MovieSmallCard {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #000000;
+    text-align: left;
+    .movie-result {
+        margin-top: 10px;
+    }
+    .movie-title,  .movie-country, .movie-director, .movie-minutes, .movie-rating {
+        margin-top: 10px;
+        
+    }
+    .movie-year, .movie-genre {
+        color: #ffbe0b;
+        margin-top: 10px;
+    }
+}

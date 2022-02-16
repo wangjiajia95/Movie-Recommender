@@ -1,0 +1,47 @@
+.GenrePage {
+    .genreName-name-section {
+        text-align:left;
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        color: #d00000;
+        margin-top: 100px;
+    }
+    .search-bar{
+        margin-top: 60px;
+        text-align: right;
+
+    }
+
+    .genre-name{
+        margin-bottom: 20px;
+    }
+    .genre-card-section{
+        display: grid;      
+        grid-template-columns: 1fr 10fr; 
+        grid-column-gap: 35px;
+
+    }
+    .card-section{
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+    }
+
+    .movie-detail-section{
+        width: 75%;
+
+    }
+
+    .smallcard-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-column-gap: 15px;
+    }
+    .more-link {
+        font-weight: bold;
+        align-self: center;
+        justify-self: center;
+        font-size: 2rem;
+        color: #FFEAEA;
+    }
+}
+

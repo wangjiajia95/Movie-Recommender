@@ -1,0 +1,41 @@
+.MovieDetailCard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #000000;
+    
+    .movie-detail {
+        text-align: left;
+    }
+    .movie-title{
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+    
+    .movie-year, .movie-genre{
+        margin-top: 10px;
+        color: #ffbe0b;
+    }
+    
+    .movie-country,.movie-director, .movie-minutes, .movie-rating {
+        margin-top: 10px;
+    }
+
+    .movie-photo {
+        // text-align: right;
+        // every paragraph
+        & > p {
+            margin-bottom: 20px;
+        }
+        .img{
+            height: 300px;
+        }
+    }
+
+    .rating {
+        margin: 10px auto
+    }
+
+}
