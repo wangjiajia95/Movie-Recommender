@@ -15,14 +15,14 @@ export class HomePage extends Component {
       totalResults: 0,
       currentPage: 1,
     };
-    // this.apiKey = process.env.REACT_APP_API
+    this.apiKey = process.env.REACT_APP_API
   }
   handleSubmit = (e) => {
     e.preventDefault();
 
     fetch(   
       // upcoming movies
-      `https://api.themoviedb.org/3/movie/upcoming?api_key=89e82e43473e782c0b673284c58e9ecc&region=${this.state.searchTerm}`
+      `https://api.themoviedb.org/3/movie/upcoming?api_key=this.apiKey&region=${this.state.searchTerm}`
 
     )
       .then((data) => data.json())
@@ -41,7 +41,7 @@ export class HomePage extends Component {
 
   nextPage = (pageNumber) => {
     fetch(
-      `https://api.themoviedb.org/3/movie/upcoming?api_key=89e82e43473e782c0b673284c58e9ecc&query=${this.state.searchTerm}&page=${pageNumber}`
+      `https://api.themoviedb.org/3/movie/upcoming?api_key=this.apiKey&query=${this.state.searchTerm}&page=${pageNumber}`
     )
       .then((data) => data.json())
       .then((data) => {
