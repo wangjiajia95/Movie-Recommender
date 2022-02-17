@@ -29,5 +29,5 @@ MovieRecommender is a personalized recommendation engine based on MovieDB and Tw
 
 - Users can rate a movie and check it later on their rating page.
 
-- I explored multiple recommendation algorithms such as content based recommender, collaborate filtering recommender, etc. In my project, Users will get recommendation based on a list of movies they rated by content based algorithm.
+- I explored multiple recommendation algorithms such as content based recommender, collaborative filtering recommender, etc. In my project, Users will get recommendation based on a list of movies they rated by content based algorithm.
 
