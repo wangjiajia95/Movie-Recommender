@@ -7,7 +7,7 @@
 ![](2022-02-15-22-40-04.png)
 
 ## Overview
-This is a 3 week long capstone project after study at Ada. Project goals included learning new tech stack, framework, combine with my personal interest -- algorithms, and implement them in a short period of time.
+This is a 3 week long capstone project after study at Ada. Project goals included learning new tech stack, framework, combine with my personal interest -- recommender engine, and implement them in a short period of time.
 
 MovieRecommender is a personalized recommendation engine based on MovieDB and Twitflicks resources. Users can search or retrieve movie resources, and submit their own ratings on each movie, they can then get recommended based on ratings of a list of Movies they rated by content based algorithm.
 
